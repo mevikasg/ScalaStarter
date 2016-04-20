@@ -13,6 +13,10 @@ object MultipleReturnsTuple {
     println(s"Last Name: $lName")
     println(s"Email: $email")
 
+
+    // if return values count won't match then Scala compiler reports an error.
+   // val (fName, lName) = getPersonInfo(1)
+
   }
 
   def getPersonInfo(id: Int) = {

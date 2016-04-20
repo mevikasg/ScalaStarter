@@ -9,8 +9,16 @@ object Java2Scala {
 
     println("Hello Scala!!!")
 
+    for (i <- 1 to 3)
+      print(s"$i, ")
+
+    println(" That's Scala...")
 
 
+    for (i <- 1 until 3)
+      print(s"$i, ")
+
+    println(" for loop until 3")
   }
 
 }
